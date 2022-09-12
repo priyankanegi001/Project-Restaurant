@@ -1,0 +1,740 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: FrederickatheGreat-Regular;
+  src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Gabelisa;
+  src: url(../fonts/Gabelisa.otf);
+}
+
+*{
+  font-family: Montserrat-Regular;
+}
+
+body {
+  margin: 0px;
+}
+
+#banner-bg{
+  background: linear-gradient(105deg, rgba(255,224,1,1) 68%, rgba(223,221,163,1) 68%);
+  height: 675px; 
+  width: 100%;
+}
+
+#topbar{
+  padding-top: 30px;
+  height: 75px;
+  width: 100%;
+}
+
+#logo{
+  float: left;
+  width: 78%;
+  height: 80px;
+  padding-left: 35px;
+  box-sizing: border-box;
+}
+
+#contact{
+  float: left;
+  width: 15%;
+  padding-top: 12px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+#delivery{
+  font-size: 11px;
+  font-family: Montserrat-Regular; 
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+
+
+#number{
+  font-size: 18px;
+  font-family: Montserrat-Bold; 
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+#iphone{
+  width: 6%;
+  float: left;
+  padding-right: 10px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+#navbar{
+  overflow: hidden;
+  height: 45px;
+  width: 100%;
+}
+
+#navbar ul{
+  float: right;
+  text-align: center;
+  padding-right: 65px;
+  font-size: 17px;
+}
+
+#navbar ul li{
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+#navbar ul li a{
+text-decoration: none;
+color: black;
+font-size: 12px;
+font-weight: bold;
+list-style-type: none;
+}
+
+#banner {
+  height: 511px;
+  width: 100%;
+  position: relative;
+}
+
+#hungry-txt {
+  position: absolute;
+  top: 40px;
+  left: 15%;
+  font-family: Gabelisa;
+  font-size: 50px;
+}
+
+#wait-txt {
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  font-family: FrederickatheGreat-Regular;
+  font-size: 70px;
+}
+
+#food-txt {
+  position: absolute;
+  top: 38%;
+  left: 15%;
+  font-family: Montserrat-Bold;
+  font-size: 16px; 
+}
+
+#line {
+position: absolute;
+width: 300px;
+top: 45%;
+left: 13%;
+}
+
+#hours-txt {
+  position: absolute;
+  top: 51%;
+  left: 17%;
+  font-family: FrederickatheGreat-Regular;
+  font-size: 14px;
+}
+
+#one-txt {
+  position: absolute;
+  top: 49%;
+  left: 27%;
+  font-family: FrederickatheGreat-Regular;
+  font-size: 40px;
+}
+
+#now-txt {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.spaghetti {
+  position: absolute;
+  top: 75%;
+}
+
+.top-leaf{
+  position: absolute;
+  top: 4px;
+  left: 45px;
+}
+
+.banner-plate {
+  position: absolute;
+  top: 60px;
+  left: 55%;
+}
+
+.bow-pasta {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+}
+
+.tomato {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+
+.spaghetti {
+  position: absolute;
+  top: 75%;
+  left: -8.5%;
+}
+
+.bottom-leaf {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/*banner ends*/
+#choose{
+    font-family: FrederickatheGreat-Regular;
+    text-align: center;
+    color:#0d0d0d;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+#choose-txt{
+    font-family: Montserrat-Regular;
+    text-align: center;
+    padding: 10px 60px;
+    color:#353433;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+
+/* 3 plates */
+.plates
+{
+    background-color: #e8e6a9;
+    height: 120px;
+}
+
+.plates img
+{
+    padding-left:6%;
+    height:250px;
+}
+
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 40px 60px 0px 60px;
+    box-sizing: border-box;
+    margin-top: -110px;
+    margin-bottom: 50px;
+}
+
+.section33 h3{
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.section33 p{
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+    color:#353433;
+}
+
+#order-btn{
+    background-color:#ffe001;
+    color:#000000;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* 3 plates end*/
+
+/* discover */
+h4{
+	text-align: center;
+}
+
+#events {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#discover{
+    font-family: FrederickatheGreat-Regular;
+    text-align: center;
+    color:#5f5d5c;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#discover-txt{
+    font-family: Montserrat-Regular;
+    text-align: center;
+    padding: 10px 60px;
+    color:#353433;
+    font-size: 12px;
+}
+/* discover end */
+
+/*--Images in series--*/
+
+.dishes {
+	position: relative;
+  height: 375px;
+  margin-bottom: 60px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pasta {
+	position: absolute;
+	height: 284px;
+	width: 30%;
+  top:50px;
+  box-sizing: border-box;
+  }
+
+.pizza {
+	position: absolute;
+	height: 333px;  
+	width: 43%;
+	left:27.7%;
+  top:25px;
+  box-sizing: border-box;
+  display: inline-block; 
+}
+
+.noodles {
+	position: absolute;
+	width: 22%;
+	left: 73.5%;
+	top: 50px;
+	height: 287px;
+  box-sizing: border-box;
+  }
+/*--Images in series end--*/
+
+/*--Images with text--*/
+#vertical-img {
+    height: 339px;
+    width: 82%;
+    margin: auto;
+}
+
+#vimg-left {
+  height: 338px;
+  width: 48%;
+  float: left;
+  box-sizing: border-box;
+  color: white;
+  position: relative;
+  font-size: 26px;
+  font-weight:bold;
+}
+
+#try {
+  margin-bottom: 2px;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+
+#vimg-right {
+  height: 338px;
+  width: 48%;
+  float: right;
+  color: white;
+  position: relative;
+  font-size: 26px;
+  font-weight:bold;
+}
+
+.top-left {
+  position: absolute;
+  top: 26px;
+  left: 30px;
+}
+
+.top-right {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+
+.bottom-top {
+  position: absolute;
+  top: 55%;
+  left: 30px;
+}
+
+#img-up {
+  height: 165px;
+  width: 100%;
+  float: left;
+}
+
+#img-down {
+  height: 158px;
+  width: 100%;
+  float: left;
+  padding-top: 18px;
+}
+
+#img-1 {
+    position: absolute;
+    height:336px;
+    width: 479px;
+}
+
+#img-2 {
+    position: absolute;
+    left:520px;
+    height:192px;
+    width: 476px;
+}
+
+#img-3 {
+    position: absolute;
+    left:520px;
+    top:180px;
+    height:155px;
+    width: 476px;
+}
+
+/*--Images with text end--*/
+
+/*--Reservation--*/
+
+#reserve-container {
+    margin-top: 30px;
+    height: 310px;
+}
+
+#reservation {
+    font-family: FrederickatheGreat-Regular;
+    text-align: center;
+    color:#5f5d5c;
+    font-size: 40px;
+    margin-top:2px;
+    margin-bottom:10px;
+}
+
+.form-container {
+    padding: 10px;
+    background-color: #e8e50c;
+    margin: auto;
+    width: 40%;
+    height: 190px;
+}
+
+  input[type=text] {
+    width: 47%;
+    padding: 10px;
+    margin: 5px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+/*Date Picker*/
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+input {
+	font-family: 'Roboto', sans-serif;
+	display:block;
+	border: none;
+	border-radius: 0.25rem;
+	border: 1px solid transparent;
+	line-height: 1.5rem;
+	padding: 0;
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #607D8B;
+	max-width: 18rem;
+	margin-top: 0.5rem;
+	border: 1px solid #ECEFF1;
+}
+
+input:focus {outline: none;}
+#ui-datepicker-div {
+	display: none;
+	background-color: #fff;
+	box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.1);
+	margin-top: 0.25rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.ui-datepicker-calendar thead th {
+	padding: 0.25rem 0;
+	text-align: center;
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #78909C;
+}
+.ui-datepicker-calendar tbody td {
+	width: 2.5rem;
+	text-align: center;
+	padding: 0;
+}
+.ui-datepicker-calendar tbody td a {
+	display: block;
+	border-radius: 0.25rem;
+	line-height: 2rem;
+	transition: 0.3s all;
+	color: #546E7A;
+	font-size: 0.875rem;
+	text-decoration: none;
+}
+.ui-datepicker-calendar tbody td a:hover {	
+	background-color: #E0F2F1;
+}
+.ui-datepicker-calendar tbody td a.ui-state-active {
+	background-color:#e8e50c;;
+	color: white;
+}
+.ui-datepicker-header a.ui-corner-all {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	width: 2rem;
+	height: 2rem;
+	margin: 0.5rem;
+	border-radius: 0.25rem;
+	transition: 0.3s all;
+}
+.ui-datepicker-header a.ui-corner-all:hover {
+	background-color: #ECEFF1;
+}
+.ui-datepicker-header a.ui-datepicker-prev {	
+	left: 0;	
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==");
+	background-repeat: no-repeat;
+	background-size: 0.5rem;
+	background-position: 50%;
+	transform: rotate(180deg);
+}
+.ui-datepicker-header a.ui-datepicker-next {
+	right: 0;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDEzIDEzIj48cGF0aCBmaWxsPSIjNDI0NzcwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjI4OCA2LjI5NkwzLjIwMiAyLjIxYS43MS43MSAwIDAgMSAuMDA3LS45OTljLjI4LS4yOC43MjUtLjI4Ljk5OS0uMDA3TDguODAzIDUuOGEuNjk1LjY5NSAwIDAgMSAuMjAyLjQ5Ni42OTUuNjk1IDAgMCAxLS4yMDIuNDk3bC00LjU5NSA0LjU5NWEuNzA0LjcwNCAwIDAgMS0xLS4wMDcuNzEuNzEgMCAwIDEtLjAwNi0uOTk5bDQuMDg2LTQuMDg2eiIvPjwvc3ZnPg==');
+	background-repeat: no-repeat;
+	background-size: 10px;
+	background-position: 50%;
+}
+.ui-datepicker-header a>span {
+	display: none;
+}
+.ui-datepicker-title {
+	text-align: center;
+	line-height: 2rem;
+	margin-bottom: 0.25rem;
+	font-size: 0.875rem;
+	font-weight: 500;
+	padding-bottom: 0.25rem;
+}
+.ui-datepicker-week-col {
+	color: #78909C;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+/*Date Picker ends*/
+
+/*Time Picker*/
+input{
+    font-family: 'Roboto', sans-serif;
+    display:block;
+    border: none;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    line-height: 1.5rem;
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: #607D8B;
+    max-width: 18rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ECEFF1;
+  }
+/*Time Picker ends*/
+ 
+/*Number input*/
+.input-number{
+  width: 227px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left:4px;
+  display: inline-block;
+}
+/*Number input ends*/
+
+/*Find Table*/
+#find-table {
+  width: 47%;
+  padding: 13px;
+  margin: 5px 5px 5px 12px;
+  display: inline-block;
+  background-color: #e8e50c;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+/*Find Table ends*/
+
+/*--Reservation end--*/
+
+/*--footer--*/
+
+  #foot-cont {
+    margin-top: 20px;
+    height: 400px;
+    position: relative;
+  }
+
+  #foot-left {
+    height: 370px;
+    width:500px;
+    position: absolute;
+    top: 8px;
+    left: 25px;
+  }
+
+  #foot-bg {
+    width: 1261px;
+    height: 400px;
+    position: relative;
+  }
+
+/*Footer left section*/
+  
+  #footer-logo {
+    padding: 20px 0px 0px 30px;
+    height:90px;
+    width: 319px;
+  }
+
+  .footer-txt {
+    color: #ccc;
+    padding:20px 100px 0px 45px;
+    text-align: justify;
+    font-size: 11px;
+    box-sizing: border-box;
+  }
+
+  #copyright {
+    margin-top: 80px;
+    color: #ccc;
+    font-size: 11px;
+    padding:20px 100px 0px 45px;
+  }
+/*Footer left section ends*/
+
+/*Footer right section*/
+
+#foot-right {
+    float: right;
+    height: 370px;
+    width:500px;                      
+    position: absolute;
+    top: 8px;
+    right: 25px;
+  }
+
+  .cont-both{
+    margin: 130px 0px 0px 120px;
+  }
+
+  .cont-location {
+    display: flex; 
+    width:70%;
+  }
+
+  .cont-envelope {
+    display: flex; 
+    width:70%;
+  }
+  
+  .fa-location-dot {
+    padding-top: 15px;
+    color:yellow;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  .fa-envelope {
+    padding-top: 15px;
+    color:yellow;
+    min-width: 50px;
+    text-align: center; 
+  }
+
+  .footer-icon-text {
+    font-size: 11px;
+    color: white;
+  }
+
+  .social-icons {
+    padding-left: 280px;
+    margin-top: 130px;
+  }
+
+  .fa-brands {
+    color:rgb(16, 16, 15);
+    background-color:white;
+    border-radius: 60%;
+    margin-right: 10px;
+  }
+
+.fa-twitter{
+    padding: 5px 6px;
+}
+
+.fa-facebook-f{
+    padding: 5px 9px;
+}
+
+.fa-whatsapp{
+    padding: 5px 8px;
+}
+
+.fa-instagram{
+    padding: 6px 8px;
+}
+/*Footer right section*/
+
+  /*--footer ends--*/

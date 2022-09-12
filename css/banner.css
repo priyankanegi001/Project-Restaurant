@@ -1,0 +1,216 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: FrederickatheGreat-Regular;
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gabelisa;
+    src: url(../fonts/Gabelisa.otf);
+}
+
+*{
+    font-family: Montserrat-Regular;
+}
+
+body {
+    margin: 0px;
+}
+
+#banner-bg{
+    background: rgb(255,224,1);
+    background: linear-gradient(105deg, rgba(255,224,1,1) 68%, rgba(223,221,163,1) 68%);
+    height: 675px; 
+    border: 1px solid black;  
+    width: 100%;
+}
+
+
+#topbar{
+    padding-top: 30px;
+    border: 1px solid black;
+    height: 80px;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    width: 78%;
+    height: 80px;
+    padding-left: 35px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#contact{
+    float: left;
+    width: 15%;
+    padding-top: 12px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+#delivery{
+    font-size: 11px;
+    font-family: Montserrat-Regular; 
+    padding-left: 60px;
+    border: 1px solid black;
+}
+
+
+#number{
+    font-size: 18px;
+    font-family: Montserrat-Bold; 
+    padding-left: 50px;
+    border: 1px solid black;
+}
+
+#iphone{
+    width: 6%;
+    float: left;
+    padding-right: 10px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+#navbar{
+    overflow: hidden;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+
+#navbar ul{
+    float: right;
+    text-align: center;
+    padding-right: 65px;
+    font-size: 17px;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#navbar ul li a{
+ text-decoration: none;
+ color: black;
+ font-size: 12px;
+ list-style-type: none;
+}
+
+#banner {
+    border: 1px solid black;
+    height: 511px;
+    width: 100%;
+    position: relative;
+}
+
+#hungry-txt {
+    position: absolute;
+    top: 40px;
+    left: 15%;
+    font-family: Gabelisa;
+    font-size: 50px;
+}
+
+#wait-txt {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    font-family: FrederickatheGreat-Regular;
+    font-size: 70px;
+}
+
+#food-txt {
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-family: Montserrat-Bold; 
+}
+
+#line {
+ position: absolute;
+ width: 300px;
+ top: 45%;
+ left: 13%;
+}
+
+#hours-txt {
+    position: absolute;
+    top: 51%;
+    left: 17%;
+    font-family: FrederickatheGreat-Regular;
+    font-size: 14px;
+}
+
+#one-txt {
+    position: absolute;
+    top: 49%;
+    left: 27%;
+    font-family: FrederickatheGreat-Regular;
+    font-size: 40px;
+}
+
+#now-txt {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.spaghetti {
+    position: absolute;
+    top: 75%;
+}
+
+.top-leaf{
+    position: absolute;
+    top: 4px;
+    left: 45px;
+}
+  
+.banner-plate {
+    position: absolute;
+    top: 60px;
+    left: 55%;
+}
+
+.pasta {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+  
+.tomato {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+.spaghetti {
+    position: absolute;
+    top: 75%;
+    left: -8.5%;
+    box-sizing: border-box;
+}
+  
+.bottom-leaf {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+
